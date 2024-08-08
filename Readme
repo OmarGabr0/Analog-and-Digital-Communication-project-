@@ -1,0 +1,32 @@
+#Analog and Digital Communication project 
+
+Implementation a MATLAB code that takes an arbitrary number of signals as an input (M signals) 
+and uses Gram-Schmidt procedure to produce the minimum number of required orthonormal 
+basis functions (N bases function) to represent the M signals. Using constellation diagram to 
+calculate the probability of errors in the system practically
+
+#part1 
+1. Plot the M input signals, and the N basis functions
+
+2. Plot the constellation diagram of the signals.
+
+3. Calculate the energy of each symbols using the constellation diagram.
+
+4. Test your code using the two following sets of signals and document the results.
+
+#part2
+1. Use the code in part 1 to plot the constellation diagram of binary polar NRZ 
+system.
+
+2. Generate 100000 random stream of bits and encode them using polar NRZ
+
+3. Transmit the encoded data through AWGN channel with different noise power 
+levels, and sketch the constellation the of received signal at the output of the 
+channel. Assume 𝐸𝑏/𝑁𝑜 takes values = {-10 -8 -6 -4 -2 0 2 4 6 dB} (Eb is the energy 
+per bit & 𝑁𝑜
+
+4. Decode the received data plot the relation between the BER of decoded data and 𝐸𝑏/𝑁𝑜. 
+
+5. Derive theoretically the BER of polar NRZ in terms of 𝐸𝑏/𝑁𝑜
+and plot the theoretical BER vs 𝐸𝑏/𝑁𝑜 in dB and compare it with the results from part 4 on the same curve. 
+Comment on the results.
